@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* SlideBar */
+.slide-bar-container {
+  display: flex;
+  flex-direction: column;
+  /* background: #e8f5ff; */
+  background: #3182ce;
+  width: 15%;
+  height: 100%;
+  position: fixed;
+}
+
+.in-panel-slide-name {
+  margin-top: 24px;
+  margin-bottom: 36px;
+  padding-left: 24px;
+  color: #ffffff;
+}
+
+.slide-bar-container .in-panel-slide-btn {
+  width: 100%;
+  height: 60px;
+  padding-top: 12px;
+  padding-left: 24px;
+  color: #ffffff;
+  /* transition: 0.5s; */
+}
+
+.slide-bar-container .in-panel-slide-btn:hover {
+  background: #f6fbff;
+  font-weight: 600;
+  color: #000000;
+}
+
+.in-panel-slide-btn-active {
+  background: #f6fbff;
+  font-weight: 600;
+}
+
+.inventory-panel-home-link-active,
+.inventory-panel-add-item-link-active {
+  color: #000000;
+}
+
+/* Edit Button in Home page */
+.edit-btn {
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 14px;
+  border-radius: 5px;
+  padding: 4px 24px;
+  background: #3182ce;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  background: rgb(48, 137, 214);
+  color: white;
+}
+
+/* Supplier Panel */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e2e2e2;
+}
+.action-button1 {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #0cb322;
+  color: #fff;
+}
+.action-button2 {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #d33434;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Admin Panel */
+.nav-bar-admin-panel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #3182ce;
+  padding: 8px 32px;
+}
+
+.nav-bar-logo {
+  width: 200px;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+  height: 70vh;
+}
+
+.panel-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 270px;
+  background: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.panel-box:hover {
+  opacity: 100%;
+  border: 2px solid;
+}
+
+.inner-box {
+  width: 90%;
+  height: 50%;
+  background: #ffffff;
+}
+
+.inner-box p {
+  padding-top: 14px;
+  text-align: center;
+}
+
+.panel-box-image {
+  width: 100%;
+}
+
+.admin-panel-top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 78px;
+  font-size: 28px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+}
