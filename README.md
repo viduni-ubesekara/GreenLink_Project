@@ -35,7 +35,5 @@
 | Database    | MongoDB                                   |
 | Tools       | GitHub, Azure Boards, SonarQube, Selenium, Postman |
 
----
 
-## 📂 Project Structure
 
